@@ -1,0 +1,17 @@
+{
+  "name": "node-hello-world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node ./test/post_and_get.test.js",
+    "start": "node src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.5.7",
+    "mongoose": "^5.9.13",
+    "url-parse": "^1.4.7"
+  }
+}
